@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EB60F18E3E21A57FC0D81AB /* Pods_SmartMirror.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF85F929D3F66FC1C37BF5A5 /* Pods_SmartMirror.framework */; };
+		400A81F22170167300A08711 /* MagicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A81F12170167300A08711 /* MagicCard.swift */; };
+		400A81F42170183000A08711 /* MusicAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A81F32170183000A08711 /* MusicAppController.swift */; };
+		400A81F72170C5D200A08711 /* MagicCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400A81F62170C5D200A08711 /* MagicCardView.swift */; };
+		40C119D7216BD30200BF656F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C119D6216BD30200BF656F /* DataManager.swift */; };
+		40C119D9216BF3EB00BF656F /* DisarmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C119D8216BF3EB00BF656F /* DisarmController.swift */; };
+		40C119DB216C136C00BF656F /* climate.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C119DA216C136C00BF656F /* climate.png */; };
+		40C119DE216C14B600BF656F /* ClimateAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C119DD216C14B600BF656F /* ClimateAppController.swift */; };
+		40C119E1216D010700BF656F /* icomoon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40C119E0216D010700BF656F /* icomoon.ttf */; };
+		40C119E5216EA6CF00BF656F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C119E4216EA6CF00BF656F /* AVFoundation.framework */; };
+		40C119E7216EA6D300BF656F /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C119E6216EA6D300BF656F /* AVKit.framework */; };
+		40C119EA216EA6FB00BF656F /* CameraAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C119E9216EA6FB00BF656F /* CameraAppController.swift */; };
+		40C119EC216EABD100BF656F /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C119EB216EABD100BF656F /* QTKit.framework */; };
+		40C119EF216EAD3400BF656F /* LocationAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C119EE216EAD3400BF656F /* LocationAppController.swift */; };
+		40C119F2216EB81800BF656F /* LocationAppMapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C119F0216EB81800BF656F /* LocationAppMapController.swift */; };
+		40C119F5216EBB3D00BF656F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C119F4216EBB3D00BF656F /* MapKit.framework */; };
+		40C119F7216EBD3500BF656F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C119F6216EBD3500BF656F /* WebKit.framework */; };
+		40C119F9216F9BEF00BF656F /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40C119F8216F9BEF00BF656F /* apps.plist */; };
+		40C119FC216FA36500BF656F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C119FB216FA36500BF656F /* App.swift */; };
+		40C119FF216FD09F00BF656F /* AppIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C119FE216FD09F00BF656F /* AppIcon.swift */; };
+		40C11A01216FDA3A00BF656F /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C11A00216FDA3A00BF656F /* location.png */; };
+		40C11A03216FE82B00BF656F /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C11A02216FE82B00BF656F /* music.png */; };
+		40C11A0A216FEE9300BF656F /* ElecAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C11A08216FEE9300BF656F /* ElecAppController.swift */; };
+		40C11A0D216FEF2C00BF656F /* elec.png in Resources */ = {isa = PBXBuildFile; fileRef = 40C11A0C216FEF2C00BF656F /* elec.png */; };
+		40C8B0F521714ECB00DB7530 /* NotificationAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C8B0F421714ECB00DB7530 /* NotificationAppController.swift */; };
+		40EDE3F6216A8DB500D3741E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE3F5216A8DB500D3741E /* AppDelegate.swift */; };
+		40EDE3F8216A8DB500D3741E /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE3F7216A8DB500D3741E /* CanvasViewController.swift */; };
+		40EDE3FA216A8DB500D3741E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EDE3F9216A8DB500D3741E /* Assets.xcassets */; };
+		40EDE3FD216A8DB500D3741E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40EDE3FB216A8DB500D3741E /* Main.storyboard */; };
+		40EDE40B216A981100D3741E /* AppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE40A216A981100D3741E /* AppsViewController.swift */; };
+		40EDE40D216AA32E00D3741E /* BaseAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE40C216AA32E00D3741E /* BaseAppController.swift */; };
+		40EDE410216AA5E100D3741E /* AlarmAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE40F216AA5E100D3741E /* AlarmAppController.swift */; };
+		40EDE412216ABA6C00D3741E /* ArmHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EDE411216ABA6C00D3741E /* ArmHomeController.swift */; };
+		40EDE416216AD20700D3741E /* alarm.png in Resources */ = {isa = PBXBuildFile; fileRef = 40EDE415216AD20700D3741E /* alarm.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		400A81F12170167300A08711 /* MagicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCard.swift; sourceTree = "<group>"; };
+		400A81F32170183000A08711 /* MusicAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicAppController.swift; sourceTree = "<group>"; };
+		400A81F62170C5D200A08711 /* MagicCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicCardView.swift; sourceTree = "<group>"; };
+		40C119D6216BD30200BF656F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		40C119D8216BF3EB00BF656F /* DisarmController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisarmController.swift; sourceTree = "<group>"; };
+		40C119DA216C136C00BF656F /* climate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = climate.png; sourceTree = "<group>"; };
+		40C119DD216C14B600BF656F /* ClimateAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimateAppController.swift; sourceTree = "<group>"; };
+		40C119E0216D010700BF656F /* icomoon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = icomoon.ttf; sourceTree = "<group>"; };
+		40C119E4216EA6CF00BF656F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		40C119E6216EA6D300BF656F /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		40C119E9216EA6FB00BF656F /* CameraAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAppController.swift; sourceTree = "<group>"; };
+		40C119EB216EABD100BF656F /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		40C119EE216EAD3400BF656F /* LocationAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAppController.swift; sourceTree = "<group>"; };
+		40C119F0216EB81800BF656F /* LocationAppMapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAppMapController.swift; sourceTree = "<group>"; };
+		40C119F4216EBB3D00BF656F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		40C119F6216EBD3500BF656F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		40C119F8216F9BEF00BF656F /* apps.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		40C119FB216FA36500BF656F /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		40C119FE216FD09F00BF656F /* AppIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIcon.swift; sourceTree = "<group>"; };
+		40C11A00216FDA3A00BF656F /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		40C11A02216FE82B00BF656F /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		40C11A08216FEE9300BF656F /* ElecAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElecAppController.swift; sourceTree = "<group>"; };
+		40C11A0C216FEF2C00BF656F /* elec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elec.png; sourceTree = "<group>"; };
+		40C8B0F421714ECB00DB7530 /* NotificationAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAppController.swift; sourceTree = "<group>"; };
+		40EDE3F2216A8DB500D3741E /* SmartMirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartMirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EDE3F5216A8DB500D3741E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40EDE3F7216A8DB500D3741E /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		40EDE3F9216A8DB500D3741E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40EDE3FC216A8DB500D3741E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40EDE3FE216A8DB500D3741E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EDE3FF216A8DB500D3741E /* SmartMirror.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartMirror.entitlements; sourceTree = "<group>"; };
+		40EDE40A216A981100D3741E /* AppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsViewController.swift; sourceTree = "<group>"; };
+		40EDE40C216AA32E00D3741E /* BaseAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAppController.swift; sourceTree = "<group>"; };
+		40EDE40F216AA5E100D3741E /* AlarmAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmAppController.swift; sourceTree = "<group>"; };
+		40EDE411216ABA6C00D3741E /* ArmHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmHomeController.swift; sourceTree = "<group>"; };
+		40EDE415216AD20700D3741E /* alarm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alarm.png; sourceTree = "<group>"; };
+		8E513EE80C624E2A60EB8994 /* Pods-SmartMirror.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMirror.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartMirror/Pods-SmartMirror.release.xcconfig"; sourceTree = "<group>"; };
+		BA80D91F3BB49CA1D6ED4A96 /* Pods-SmartMirror.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartMirror.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartMirror/Pods-SmartMirror.debug.xcconfig"; sourceTree = "<group>"; };
+		DF85F929D3F66FC1C37BF5A5 /* Pods_SmartMirror.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartMirror.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EDE3EF216A8DB500D3741E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C119F7216EBD3500BF656F /* WebKit.framework in Frameworks */,
+				40C119F5216EBB3D00BF656F /* MapKit.framework in Frameworks */,
+				40C119EC216EABD100BF656F /* QTKit.framework in Frameworks */,
+				40C119E7216EA6D300BF656F /* AVKit.framework in Frameworks */,
+				40C119E5216EA6CF00BF656F /* AVFoundation.framework in Frameworks */,
+				2EB60F18E3E21A57FC0D81AB /* Pods_SmartMirror.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40C119DC216C145F00BF656F /* Climate */ = {
+			isa = PBXGroup;
+			children = (
+				40C119DD216C14B600BF656F /* ClimateAppController.swift */,
+			);
+			path = Climate;
+			sourceTree = "<group>";
+		};
+		40C119DF216D010700BF656F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				40C119E0216D010700BF656F /* icomoon.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		40C119E8216EA6D900BF656F /* Cameras */ = {
+			isa = PBXGroup;
+			children = (
+				40C119E9216EA6FB00BF656F /* CameraAppController.swift */,
+			);
+			path = Cameras;
+			sourceTree = "<group>";
+		};
+		40C119ED216EAD1E00BF656F /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				40C119EE216EAD3400BF656F /* LocationAppController.swift */,
+				40C119F0216EB81800BF656F /* LocationAppMapController.swift */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		40C119FA216FA35600BF656F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				40C119FB216FA36500BF656F /* App.swift */,
+				400A81F12170167300A08711 /* MagicCard.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		40C119FD216FD08600BF656F /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				40C119FE216FD09F00BF656F /* AppIcon.swift */,
+				400A81F62170C5D200A08711 /* MagicCardView.swift */,
+			);
+			path = SubClasses;
+			sourceTree = "<group>";
+		};
+		40C11A04216FE86500BF656F /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				400A81F32170183000A08711 /* MusicAppController.swift */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		40C11A07216FEE8600BF656F /* Electricity Usage */ = {
+			isa = PBXGroup;
+			children = (
+				40C11A08216FEE9300BF656F /* ElecAppController.swift */,
+			);
+			path = "Electricity Usage";
+			sourceTree = "<group>";
+		};
+		40C8B0F321714EB300DB7530 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B0F421714ECB00DB7530 /* NotificationAppController.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		40EDE3E9216A8DB500D3741E = {
+			isa = PBXGroup;
+			children = (
+				40EDE3F4216A8DB500D3741E /* SmartMirror */,
+				40EDE3F3216A8DB500D3741E /* Products */,
+				DE60EE7E90B1119FD07F99BB /* Pods */,
+				F2FB28BCECE3555AAAF113A1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40EDE3F3216A8DB500D3741E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40EDE3F2216A8DB500D3741E /* SmartMirror.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40EDE3F4216A8DB500D3741E /* SmartMirror */ = {
+			isa = PBXGroup;
+			children = (
+				40C119FD216FD08600BF656F /* SubClasses */,
+				40C119FA216FA35600BF656F /* Classes */,
+				40EDE413216AD1F100D3741E /* Assets */,
+				40EDE409216A97FF00D3741E /* Apps */,
+				40EDE3F5216A8DB500D3741E /* AppDelegate.swift */,
+				40EDE3F7216A8DB500D3741E /* CanvasViewController.swift */,
+				40EDE3F9216A8DB500D3741E /* Assets.xcassets */,
+				40EDE3FB216A8DB500D3741E /* Main.storyboard */,
+				40EDE3FE216A8DB500D3741E /* Info.plist */,
+				40EDE3FF216A8DB500D3741E /* SmartMirror.entitlements */,
+				40EDE40A216A981100D3741E /* AppsViewController.swift */,
+				40C119D6216BD30200BF656F /* DataManager.swift */,
+				40C119F8216F9BEF00BF656F /* apps.plist */,
+			);
+			path = SmartMirror;
+			sourceTree = "<group>";
+		};
+		40EDE409216A97FF00D3741E /* Apps */ = {
+			isa = PBXGroup;
+			children = (
+				40C8B0F321714EB300DB7530 /* Notifications */,
+				40C11A07216FEE8600BF656F /* Electricity Usage */,
+				40C11A04216FE86500BF656F /* Music */,
+				40C119ED216EAD1E00BF656F /* Location */,
+				40C119E8216EA6D900BF656F /* Cameras */,
+				40C119DC216C145F00BF656F /* Climate */,
+				40EDE40E216AA41C00D3741E /* Alarm */,
+				40EDE40C216AA32E00D3741E /* BaseAppController.swift */,
+			);
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		40EDE40E216AA41C00D3741E /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				40EDE40F216AA5E100D3741E /* AlarmAppController.swift */,
+				40EDE411216ABA6C00D3741E /* ArmHomeController.swift */,
+				40C119D8216BF3EB00BF656F /* DisarmController.swift */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		40EDE413216AD1F100D3741E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				40C119DF216D010700BF656F /* Fonts */,
+				40EDE414216AD1F600D3741E /* Icons */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		40EDE414216AD1F600D3741E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				40C11A0C216FEF2C00BF656F /* elec.png */,
+				40C11A02216FE82B00BF656F /* music.png */,
+				40C11A00216FDA3A00BF656F /* location.png */,
+				40EDE415216AD20700D3741E /* alarm.png */,
+				40C119DA216C136C00BF656F /* climate.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		DE60EE7E90B1119FD07F99BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA80D91F3BB49CA1D6ED4A96 /* Pods-SmartMirror.debug.xcconfig */,
+				8E513EE80C624E2A60EB8994 /* Pods-SmartMirror.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2FB28BCECE3555AAAF113A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40C119F6216EBD3500BF656F /* WebKit.framework */,
+				40C119F4216EBB3D00BF656F /* MapKit.framework */,
+				40C119EB216EABD100BF656F /* QTKit.framework */,
+				40C119E6216EA6D300BF656F /* AVKit.framework */,
+				40C119E4216EA6CF00BF656F /* AVFoundation.framework */,
+				DF85F929D3F66FC1C37BF5A5 /* Pods_SmartMirror.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EDE3F1216A8DB500D3741E /* SmartMirror */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EDE402216A8DB500D3741E /* Build configuration list for PBXNativeTarget "SmartMirror" */;
+			buildPhases = (
+				FA59EF66161B8F136EF38CF9 /* [CP] Check Pods Manifest.lock */,
+				40EDE3EE216A8DB500D3741E /* Sources */,
+				40EDE3EF216A8DB500D3741E /* Frameworks */,
+				40EDE3F0216A8DB500D3741E /* Resources */,
+				4EC951AE0F8DC2220C9DFCA5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartMirror;
+			productName = SmartMirror;
+			productReference = 40EDE3F2216A8DB500D3741E /* SmartMirror.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40EDE3EA216A8DB500D3741E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Rob Stokes";
+				TargetAttributes = {
+					40EDE3F1216A8DB500D3741E = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 40EDE3ED216A8DB500D3741E /* Build configuration list for PBXProject "SmartMirror" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40EDE3E9216A8DB500D3741E;
+			productRefGroup = 40EDE3F3216A8DB500D3741E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EDE3F1216A8DB500D3741E /* SmartMirror */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EDE3F0216A8DB500D3741E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40C119E1216D010700BF656F /* icomoon.ttf in Resources */,
+				40EDE3FA216A8DB500D3741E /* Assets.xcassets in Resources */,
+				40C11A0D216FEF2C00BF656F /* elec.png in Resources */,
+				40C119DB216C136C00BF656F /* climate.png in Resources */,
+				40EDE3FD216A8DB500D3741E /* Main.storyboard in Resources */,
+				40C11A01216FDA3A00BF656F /* location.png in Resources */,
+				40C11A03216FE82B00BF656F /* music.png in Resources */,
+				40C119F9216F9BEF00BF656F /* apps.plist in Resources */,
+				40EDE416216AD20700D3741E /* alarm.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EC951AE0F8DC2220C9DFCA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SmartMirror/Pods-SmartMirror-frameworks.sh",
+				"${PODS_ROOT}/Mapbox-macOS-SDK/Mapbox.framework",
+				"${PODS_ROOT}/Mapbox-macOS-SDK/Mapbox.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mapbox.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/Mapbox.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartMirror/Pods-SmartMirror-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA59EF66161B8F136EF38CF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartMirror-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EDE3EE216A8DB500D3741E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400A81F72170C5D200A08711 /* MagicCardView.swift in Sources */,
+				40C119FC216FA36500BF656F /* App.swift in Sources */,
+				40EDE3F8216A8DB500D3741E /* CanvasViewController.swift in Sources */,
+				40EDE412216ABA6C00D3741E /* ArmHomeController.swift in Sources */,
+				40C119DE216C14B600BF656F /* ClimateAppController.swift in Sources */,
+				40C119FF216FD09F00BF656F /* AppIcon.swift in Sources */,
+				400A81F22170167300A08711 /* MagicCard.swift in Sources */,
+				40EDE3F6216A8DB500D3741E /* AppDelegate.swift in Sources */,
+				40C119D7216BD30200BF656F /* DataManager.swift in Sources */,
+				40C119F2216EB81800BF656F /* LocationAppMapController.swift in Sources */,
+				40EDE40D216AA32E00D3741E /* BaseAppController.swift in Sources */,
+				40C119EA216EA6FB00BF656F /* CameraAppController.swift in Sources */,
+				40C8B0F521714ECB00DB7530 /* NotificationAppController.swift in Sources */,
+				40C119EF216EAD3400BF656F /* LocationAppController.swift in Sources */,
+				40C11A0A216FEE9300BF656F /* ElecAppController.swift in Sources */,
+				40C119D9216BF3EB00BF656F /* DisarmController.swift in Sources */,
+				400A81F42170183000A08711 /* MusicAppController.swift in Sources */,
+				40EDE410216AA5E100D3741E /* AlarmAppController.swift in Sources */,
+				40EDE40B216A981100D3741E /* AppsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40EDE3FB216A8DB500D3741E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40EDE3FC216A8DB500D3741E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40EDE400216A8DB500D3741E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40EDE401216A8DB500D3741E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		40EDE403216A8DB500D3741E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA80D91F3BB49CA1D6ED4A96 /* Pods-SmartMirror.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmartMirror/SmartMirror.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7WQ27WK5DH;
+				INFOPLIST_FILE = SmartMirror/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.limeninja.SmartMirror;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		40EDE404216A8DB500D3741E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E513EE80C624E2A60EB8994 /* Pods-SmartMirror.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SmartMirror/SmartMirror.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 7WQ27WK5DH;
+				INFOPLIST_FILE = SmartMirror/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.limeninja.SmartMirror;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EDE3ED216A8DB500D3741E /* Build configuration list for PBXProject "SmartMirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EDE400216A8DB500D3741E /* Debug */,
+				40EDE401216A8DB500D3741E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EDE402216A8DB500D3741E /* Build configuration list for PBXNativeTarget "SmartMirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EDE403216A8DB500D3741E /* Debug */,
+				40EDE404216A8DB500D3741E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40EDE3EA216A8DB500D3741E /* Project object */;
+}

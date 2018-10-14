@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Alarm</string>
+			<key>className</key>
+			<string>AlarmAppController</string>
+			<key>icon</key>
+			<string>alarm.png</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Climate</string>
+			<key>className</key>
+			<string>ClimateAppController</string>
+			<key>icon</key>
+			<string>climate.png</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Location</string>
+			<key>className</key>
+			<string>LocationAppController</string>
+			<key>icon</key>
+			<string>location.png</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Electricity Usage</string>
+			<key>className</key>
+			<string>ElecAppController</string>
+			<key>icon</key>
+			<string>elec.png</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Music</string>
+			<key>className</key>
+			<string>MusicAppController</string>
+			<key>icon</key>
+			<string>elec.png</string>
+		</dict>
+	</array>
+</dict>
+</plist>
